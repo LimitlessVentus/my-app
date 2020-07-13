@@ -26,11 +26,11 @@ function createInsertWindow() {
         insertWindow = null;
     });
 
-    ipc.on('toggle-insert-view', function() {
+/*     ipc.on('toggle-insert-view', function() {
         if (!insertWindow) {
             createInsertWindow();
         }
         return (!insertWindow.isClosed() && insertWindow.isVisible()) ? insertWindow.hide() : insertWindow.show();
     });
-
+ */
 }
